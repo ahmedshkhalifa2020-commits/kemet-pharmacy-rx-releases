@@ -1,0 +1,11 @@
+{
+  "version": "2.0.1",
+  "notes": "# KEMET Pharmacy 2.0.1 — كل موظف يشوف شاشاته هو بس\n\n**الجديد في النسخة دي:**\n- **كل دور بيفتح على شاشته:**\n  - الكول سنتر والمحضّر ← كول سنتر الدليفري.\n  - الكاشير والصيدلي ← البيع المباشر.\n  - المدير ← لوحة الترحيب.\n  - مابقاش حد بيفتح على شاشة بيع مقفولة.\n- **البحث السريع (Ctrl+K) بيعرض المسموح بس:**\n  - الشاشات والأقسام اللي مالكش صلاحية عليها مابتظهرش خالص.\n  - العدادات بتعدّ المتاح لدورك.\n- **لوحة الترحيب:**\n  - فيها كروت سريعة للشاشات المسموحة لك.\n  - فيه زر «الرئيسية» في شريط التبويبات.\n- **احفظ مساحة عملك:**\n  - زر «مساحة العمل» في الشريط العلوي بيحفظ التبويبات المفتوحة، وبتفتح لوحدها المرة الجاية.\n  - تقدر ترجع لافتراضي دورك في أي وقت.\n- **تبويب البيع بقى يتقفل** زي أي تبويب.\n- **حماية أقوى:**\n  - اختصارات F بتتقفل وأي نافذة مفتوحة، فمفيش حاجة بتتنفذ من ورا النافذة.\n  - F5 مابقاش بيعيد تحميل البرنامج ولا بيضيّع الجلسة.\n  - سائق الدليفري مابقاش يقدر يعمل مرتجعات.\n  - تسجيل الخروج مايتلغيش بتبديل موظف كان لسه شغال.\n\n**ملاحظات:**\n- بياناتك بتتنقل للإصدار الجديد لوحدها، وبيتاخد منها نسخة احتياطية قبل الترقية.",
+  "pub_date": "2026-09-26T11:11:15Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcEJJSFdVclA3clBMK0FCaUd3d2VRMktSTTkzZU5xLzRlRkVMVGpzSXZsU2t1d2dNa1pTWGFGN1hCTGFNcnNMTXhQQkZGb1RZSzFSSGJsdk1kSTQ5M1BGQ0pxbDhqNmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzk2MTYwCWZpbGU6S0VNRVQgUGhhcm1hY3lfMi4wLjFfeDY0LXNldHVwLmV4ZQpzWFJGUFVSSDQxdkJIVlJUUERZOEcrR1JIZGRMckJmY2d6WW4rRmE2TnkydjNCUkZWaEtXREpFbDl5bzBXZU1YcFJvaGMrUnJieUpLN29uRTBLSnlBQT09Cg==",
+      "url": "https://github.com/ahmedshkhalifa2020-commits/kemet-pharmacy-rx-releases/releases/download/v2.0.1/KEMET-Pharmacy-Setup-2.0.1.exe"
+    }
+  }
+}
