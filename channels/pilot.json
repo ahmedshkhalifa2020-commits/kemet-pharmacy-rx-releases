@@ -1,11 +1,11 @@
 {
-  "version": "2.0.2",
-  "notes": "KEMET Pharmacy 2.0.2 — بياناتك في مكان آمن\n\nالجديد في النسخة دي:\n• نقل قاعدة البيانات لقرص البيانات تلقائياً:\n  • بعد التحديث، ومن أول تشغيل بعده، البرنامج بينقل قاعدة البيانات من ملفات ويندوز (AppData) لقرص البيانات، زي D:\\KEMET_Pharmacy_Data.\n  • الهدف إن لو الويندوز اتعمله فورمات، الفواتير والبيانات تفضل موجودة.\n  • بيتاخد نسخة احتياطية كاملة الأول، والنسخة القديمة بتفضل محفوظة ومش بتتمسح.\n  • لو القرص مش مناسب أو المساحة مش كفاية، البرنامج بيكمل شغله عادي من مكانه القديم.\n• رقم الإصدار الحقيقي بقى يظهر في شاشة الدخول وعنوان البرنامج.\n• زر «مساحة العمل» اتنقل لأقصى يسار شريط التبويبات بنص واضح.\n• تنظيف تلقائي: ملفات التحديث المؤقتة بتتمسح لوحدها بعد ما التحديث ينجح.\n\nملاحظة: النقل بيحصل مرة واحدة بس، وأي خطأ فيه مايوقفش شغل الصيدلية.",
-  "pub_date": "2026-09-26T16:06:45Z",
+  "version": "2.0.3",
+  "notes": "KEMET Pharmacy 2.0.3 — ترخيص الصيدلية ونسخ احتياطي آمن\n\nالجديد في النسخة دي:\n• ترخيص الصيدلية:\n  • بعد التحديث البرنامج بيطلب تفعيل الترخيص مرة واحدة (محتاج إنترنت وقت التفعيل بس)، ومعاك مهلة 7 أيام تشتغل فيها عادي لحد ما تفعّل.\n  • بعد التفعيل البيع شغال من غير إنترنت، والبرنامج بيجدد الترخيص لوحده في الخلفية.\n  • لو الويندوز اتعمله فورمات، تقدر ترجّع ترخيصك من معالج الإعداد.\n• نسخة احتياطية يومية تلقائية على الجهاز، وتنبيه لو عدّى وقت من غير نسخة ناجحة.\n• نسخ مشفّر على فلاشة:\n  • نسخة كل يوم على فلاشة مسجّلة (لحد اتنين)، محمية بكلمة سر ورمز استرداد بيتكتب على ورقة.\n  • من «إدارة النسخ الاحتياطي» في القائمة ⋮ (للمدير بس).\n• وضع التعافي: لو قاعدة البيانات اتلفت بسبب انقطاع الكهرباء، البرنامج بيفتح شاشة استعادة بدل ما يقف — من آخر نسخة يومية أو من الفلاشة.\n• جهاز جديد: معالج الإعداد بيرجّع الصيدلية كاملة من الفلاشة.\n• تحسينات: الفاتورة المعلقة بترجع ومعاها بيانات العميل، وتحسينات في الثبات والسرعة.\n\nملاحظة: طباعة الإيصال ودرج الفلوس موجودين في البرنامج بس مقفولين لحد ما يتجربوا على طابعة حقيقية — طريقة البيع النهارده ما اتغيرتش.",
+  "pub_date": "2026-10-17T04:59:55Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcEJJSFdVclA3ckx0ZENocm9BM3QwdDNnSGRRRm9pOVZnOURYcU9XNzFMdUtES1lGSmlpWCt1a2k4WVpXblZ2MVREczZLTUhIemxKc2tEN3hCdDMwckhwNTNHRjZJdkFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDM4NzEwCWZpbGU6S0VNRVQgUGhhcm1hY3lfMi4wLjJfeDY0LXNldHVwLmV4ZQoxamNScElqY1dyVmtMbFNlMnJRbTRidW53S3JMYU9HWXk3OGZBNFd3bnp0cUtzRTdWSW9RcGJWNDEybEF2SjA5Tm5OZko0NCtGV2wwYjRRbmZySDlDdz09Cg==",
-      "url": "https://github.com/ahmedshkhalifa2020-commits/kemet-pharmacy-rx-releases/releases/download/v2.0.2/KEMET-Pharmacy-Setup-2.0.2.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcEJJSFdVclA3ckkyR1hkWHJ3Z0UvVG52eHk4Slp3ZE9OSWcyNnEzT2RHc2FMcG1SYmtnK3NoRktnZkttWXBVNk9LdWdrbS90dE1rWGJ3WkE1SDJOWE9UczFVcmViOWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjEzMDcyCWZpbGU6S0VNRVQgUGhhcm1hY3lfMi4wLjNfeDY0LXNldHVwLmV4ZQptZG5ueGV2YUtOMHJiU1QvT2FDT0ptc1ltazBKUDgySmN3WUNJeFhnSU1ueGczR29kK0Y3Q1pqUStHZGpFc214bmRxVjByUWFoSllBdE5mY1lpZVZEdz09Cg==",
+      "url": "https://github.com/ahmedshkhalifa2020-commits/kemet-pharmacy-rx-releases/releases/download/v2.0.3/KEMET-Pharmacy-Setup-2.0.3.exe"
     }
   }
 }
