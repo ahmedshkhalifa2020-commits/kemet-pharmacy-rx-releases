@@ -1,11 +1,11 @@
 {
-  "version": "2.0.5",
-  "notes": "KEMET Pharmacy 2.0.5 — قفل الحساب بقى أدق وأأمن\n\nالجديد في النسخة دي:\n• قفل الحساب بعد الرقم السري الغلط:\n  • مدة القفل بقت محسوبة بوقت تشغيل الجهاز نفسه، فتغيير ساعة ويندوز مبقاش بيفك القفل بدري.\n  • رسالة القفل بتقولك عدد الدقايق الفاضلة بجد.\n  • لو قللت مدة القفل من الإعدادات، الأقفال الشغالة بتقصر لوحدها.\n• فك القفل من شاشة المستخدمين: المدير يقدر يفك قفل حساب موظف بزر «فك قفل الحساب»، والعملية بتتسجل في سجل التدقيق.\n  • المدير العادي ميقدرش يفك قفل حساب المدير العام.\n  • أي محاولة فك قفل مرفوضة بتتسجل هي كمان.\n• إصلاحات داخلية: تحسينات في ثبات تحديث قاعدة البيانات.\n\nقبل ما تدوس «تحديث»: اعمل «انسخ الآن» على الفلاشة، واتأكد إن النسخة الاحتياطية بتاعة النهارده نجحت.",
-  "pub_date": "2026-10-23T19:07:39Z",
+  "version": "2.0.6",
+  "notes": "KEMET Pharmacy 2.0.6 — إصلاحات أمان صغيرة\n\nالجديد في النسخة دي:\n• سجل التدقيق أنضف: محاولات فك قفل الحساب اللي بتيجي من غير ما حد يكون داخل على البرنامج مبقتش بتتسجل، فمحدش يقدر يملا السجل بيها.\n  • أي محاولة فك قفل مرفوضة من مستخدم داخل فعلاً لسه بتتسجل زي ما هي.\n• أخف على الجهاز: البرنامج بقى بيتأكد من الأرقام السرية الافتراضية للموظفين مرة واحدة بس لكل موظف بدل كل مرة.\n• مفيش أي تغيير في قاعدة البيانات، وبياناتك كلها زي ما هي.\n\nقبل ما تدوس «تحديث»: اعمل «انسخ الآن» على الفلاشة، واتأكد إن النسخة الاحتياطية بتاعة النهارده نجحت.",
+  "pub_date": "2026-10-23T20:59:59Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcEJJSFdVclA3ck8yaTJaZDFmcHJJVXlMYWtPaE9ZbzBTdWpkWlJBL2RnWVBTSElXcHhPVGJYMzUzbTA1ZVdPKzVqZU8zVEFqSnVhQ0JndHNYUXZrU1lOWCt2R0plZ1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzM5MDk0CWZpbGU6S0VNRVQgUGhhcm1hY3lfMi4wLjVfeDY0LXNldHVwLmV4ZQpQd3RjQ0xLWlp2V1JHeTJMVVBnUE1CdzdKODJWMXo3RmJTN0M0VFlxTTdYMHBlU2kwaVRjY2hpNUJoL1VrS2Q1ZmJZdjdQVWkxTEFyRGJZcDBPdE9BQT09Cg==",
-      "url": "https://github.com/ahmedshkhalifa2020-commits/kemet-pharmacy-rx-releases/releases/download/v2.0.5/KEMET-Pharmacy-Setup-2.0.5.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcEJJSFdVclA3ckhuQ2VEN24zbHQzL203RlQyU1UyZDZlWTluaHB6aDBxZGNwZjFrYW5JbGpNaTZ5bHhMTk9heU0rQ0wrWmxZQ2RCUzA5UFBpbFRBcGNtdWdZcGxzS0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzg2Nzg5CWZpbGU6S0VNRVQgUGhhcm1hY3lfMi4wLjZfeDY0LXNldHVwLmV4ZQpDNFNRVjV1Tng1WHlwenpsdjU1Si9KbzU5Wjlma2Y4OGt2NmNXWHBES3ZnbFJWdnRmdnIzT2JyclJRR0ZZbE5zdllVaU9adHk2UHVsVVFtY2o0VHJCdz09Cg==",
+      "url": "https://github.com/ahmedshkhalifa2020-commits/kemet-pharmacy-rx-releases/releases/download/v2.0.6/KEMET-Pharmacy-Setup-2.0.6.exe"
     }
   }
 }
