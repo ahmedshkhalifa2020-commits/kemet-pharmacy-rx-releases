@@ -1,11 +1,11 @@
 {
-  "version": "2.0.4",
-  "notes": "KEMET Pharmacy 2.0.4 — صلاحيات أدق وحماية أقوى للحسابات\n\nالجديد في النسخة دي:\n• المستخدمين: شاشة جديدة تضيف فيها موظف، وتعدّل بياناته وأدواره، وتوقفه أو ترجّعه، وتعيد تعيين الرقم السري بتاعه.\n• الأدوار والصلاحيات: تقدر تحدد كل دور يعمل إيه بالظبط، وتدي موظف معيّن صلاحية زيادة أو تمنعها عنه من غير ما تغيّر دوره.\n• الورديات: قوالب للورديات وتوزيعها على الموظفين، والبرنامج بيحسب التأخير والوقت الإضافي لوحده.\n• وحدات البيع: شجرة الوحدات للصنف (علبة، شريط، ...)، وفي الكاشير Ctrl+Q بيغيّر الوحدة على السطر.\n• الفواتير المعلّقة وإيصالات التحضير: محدش يقدر يرجّع أو يحصّل حاجة مش من صلاحيته.\n• الأمان:\n  • سجل الصلاحيات بقى مختوم. لو حد عدّل المستخدمين أو الصلاحيات من بره البرنامج، البرنامج بيكتشف ده، وبيوقف الحسابات اللي اتأثرت لحد ما المدير العام يراجعها («استرجاع من الختم» أو «اعتماد التغيير»).\n  • الرقم السري بيتراجع جوه قلب البرنامج بس، والمحاولات الغلط الكتير بتقفل الحساب مؤقتاً، حتى لو البرنامج اتقفل واتفتح تاني.\n  • لو حساب المدير العام نفسه اتوقف بسبب تعديل من بره، تقدر ترجّعه من شاشة الدخول عن طريق «استرداد ختم الصلاحيات».\n• إصلاحات: البحث في الكاشير، وشاشة الورديات بقت بتفتح على الفرع الصح، وبقت الألوان أوضح في الوضع الفاتح.\n\nقبل ما تدوس «تحديث»: اعمل «انسخ الآن» على الفلاشة، واتأكد إن النسخة الاحتياطية بتاعة النهارده نجحت.",
-  "pub_date": "2026-10-22T19:16:20Z",
+  "version": "2.0.5",
+  "notes": "KEMET Pharmacy 2.0.5 — قفل الحساب بقى أدق وأأمن\n\nالجديد في النسخة دي:\n• قفل الحساب بعد الرقم السري الغلط:\n  • مدة القفل بقت محسوبة بوقت تشغيل الجهاز نفسه، فتغيير ساعة ويندوز مبقاش بيفك القفل بدري.\n  • رسالة القفل بتقولك عدد الدقايق الفاضلة بجد.\n  • لو قللت مدة القفل من الإعدادات، الأقفال الشغالة بتقصر لوحدها.\n• فك القفل من شاشة المستخدمين: المدير يقدر يفك قفل حساب موظف بزر «فك قفل الحساب»، والعملية بتتسجل في سجل التدقيق.\n  • المدير العادي ميقدرش يفك قفل حساب المدير العام.\n  • أي محاولة فك قفل مرفوضة بتتسجل هي كمان.\n• إصلاحات داخلية: تحسينات في ثبات تحديث قاعدة البيانات.\n\nقبل ما تدوس «تحديث»: اعمل «انسخ الآن» على الفلاشة، واتأكد إن النسخة الاحتياطية بتاعة النهارده نجحت.",
+  "pub_date": "2026-10-23T19:07:39Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcEJJSFdVclA3ckUrZkljMU10cmpjWlB4aVIwZFV2S0lXM3dRWTNOb04wVWsvbGlka0lIN2JSM0FVblNjb2g0N0J3bGhDM01Ed1l1NXJpQmFCYkdiSzNYQTlHYW5vRFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjk2MjM3CWZpbGU6S0VNRVQgUGhhcm1hY3lfMi4wLjRfeDY0LXNldHVwLmV4ZQoyc1JnbW1Nbk5mN3VCVEJjZm9PMTlGeE0raUlNMGtZd1crUCtjeHczRUpkK01zQjZaMzZ3bVYwNDNVQS9hMVV0OGF4ZVBPTnpvVENLQVdDdytjSUZCdz09Cg==",
-      "url": "https://github.com/ahmedshkhalifa2020-commits/kemet-pharmacy-rx-releases/releases/download/v2.0.4/KEMET-Pharmacy-Setup-2.0.4.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcEJJSFdVclA3ck8yaTJaZDFmcHJJVXlMYWtPaE9ZbzBTdWpkWlJBL2RnWVBTSElXcHhPVGJYMzUzbTA1ZVdPKzVqZU8zVEFqSnVhQ0JndHNYUXZrU1lOWCt2R0plZ1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzM5MDk0CWZpbGU6S0VNRVQgUGhhcm1hY3lfMi4wLjVfeDY0LXNldHVwLmV4ZQpQd3RjQ0xLWlp2V1JHeTJMVVBnUE1CdzdKODJWMXo3RmJTN0M0VFlxTTdYMHBlU2kwaVRjY2hpNUJoL1VrS2Q1ZmJZdjdQVWkxTEFyRGJZcDBPdE9BQT09Cg==",
+      "url": "https://github.com/ahmedshkhalifa2020-commits/kemet-pharmacy-rx-releases/releases/download/v2.0.5/KEMET-Pharmacy-Setup-2.0.5.exe"
     }
   }
 }
