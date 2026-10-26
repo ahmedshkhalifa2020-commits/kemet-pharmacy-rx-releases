@@ -1,11 +1,11 @@
 {
-  "version": "2.0.6",
-  "notes": "KEMET Pharmacy 2.0.6 — إصلاحات أمان صغيرة\n\nالجديد في النسخة دي:\n• سجل التدقيق أنضف: محاولات فك قفل الحساب اللي بتيجي من غير ما حد يكون داخل على البرنامج مبقتش بتتسجل، فمحدش يقدر يملا السجل بيها.\n  • أي محاولة فك قفل مرفوضة من مستخدم داخل فعلاً لسه بتتسجل زي ما هي.\n• أخف على الجهاز: البرنامج بقى بيتأكد من الأرقام السرية الافتراضية للموظفين مرة واحدة بس لكل موظف بدل كل مرة.\n• مفيش أي تغيير في قاعدة البيانات، وبياناتك كلها زي ما هي.\n\nقبل ما تدوس «تحديث»: اعمل «انسخ الآن» على الفلاشة، واتأكد إن النسخة الاحتياطية بتاعة النهارده نجحت.",
-  "pub_date": "2026-10-23T20:59:59Z",
+  "version": "2.0.7",
+  "notes": "KEMET Pharmacy 2.0.7 — تشفير بيانات الصيدلية على الجهاز\n\nالجديد في النسخة دي:\n• بياناتك بقت متشفرة على الجهاز: لو الجهاز اتسرق أو حد نسخ الهارد، محدش يقدر يقرا بيانات الصيدلية من غير البرنامج على نفس الجهاز.\n  • أول تشغيل بعد التحديث بيشفّر البيانات مرة واحدة (ممكن ياخد دقيقة حسب حجم البيانات) — متقفلش الجهاز في الوقت ده.\n  • النسخ الاحتياطية اليومية والقديمة بتتشفر هي كمان، والفلاشة بيتحط عليها مفتاح محمي عشان الاسترجاع يشتغل.\n• كود استرداد البيانات: هتلاقي علامة صفرا في الشريط اللي فوق — ادخل بحساب المالك، اطبع الكود واحفظه في مكان آمن بعيد عن الجهاز.\n  الكود ده بيرجّع البيانات لو الويندوز اتسطب من جديد.\n• إصلاحات من المراجعة الشاملة: تحسينات في الأمان والرسائل والسرعة.\n• مفيش تغيير في شكل قاعدة البيانات، وبياناتك كلها زي ما هي.\n\nقبل ما تدوس «تحديث»: اعمل «انسخ الآن» على الفلاشة، واتأكد إن النسخة الاحتياطية بتاعة النهارده نجحت.\nمهم: بعد ما التحديث يثبت، الرجوع لنسخة 2.0.6 مش ممكن. لو حصلت أي مشكلة كلّمنا — الحل هو تثبيت 2.0.7 تاني، مش استرجاع نسخة قديمة.",
+  "pub_date": "2026-10-26T00:10:41Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcEJJSFdVclA3ckhuQ2VEN24zbHQzL203RlQyU1UyZDZlWTluaHB6aDBxZGNwZjFrYW5JbGpNaTZ5bHhMTk9heU0rQ0wrWmxZQ2RCUzA5UFBpbFRBcGNtdWdZcGxzS0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzg2Nzg5CWZpbGU6S0VNRVQgUGhhcm1hY3lfMi4wLjZfeDY0LXNldHVwLmV4ZQpDNFNRVjV1Tng1WHlwenpsdjU1Si9KbzU5Wjlma2Y4OGt2NmNXWHBES3ZnbFJWdnRmdnIzT2JyclJRR0ZZbE5zdllVaU9adHk2UHVsVVFtY2o0VHJCdz09Cg==",
-      "url": "https://github.com/ahmedshkhalifa2020-commits/kemet-pharmacy-rx-releases/releases/download/v2.0.6/KEMET-Pharmacy-Setup-2.0.6.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcEJJSFdVclA3ck5KNVQ1aUJLRHBHRW1wZGFScDhNUTlsZE5KMUlwS3d2elFmQncxSVpPMXRXd3gvd05zeWV6THFOV3BqZ1lBSEhQZkFKRmtUb0dkeU5TMzNWVHQxR3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTcxODM0CWZpbGU6S0VNRVQgUGhhcm1hY3lfMi4wLjdfeDY0LXNldHVwLmV4ZQpaNFpvcWlBbDY5dllIL1MyaDc2bVZnanpDdHc3YUkyOXowVUI4QzFOV0tmOXBFZFB5MG9GajVXRlRseDZLNFVjcndrRWd1V2plRFdZODlDTXd0RjBEdz09Cg==",
+      "url": "https://github.com/ahmedshkhalifa2020-commits/kemet-pharmacy-rx-releases/releases/download/v2.0.7/KEMET-Pharmacy-Setup-2.0.7.exe"
     }
   }
 }
